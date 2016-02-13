@@ -10,6 +10,6 @@ public class Main {
         f.generate(n, sequence);
         
         for(int i=0; i<sequence.length; i++)
-            System.out.println(sequence[i]);
+            System.out.println("f("+i+"): "+sequence[i]);
     }
 }
